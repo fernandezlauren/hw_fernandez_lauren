@@ -41,6 +41,8 @@ p::first-letter {
 }
 
 table {
+	display: block;
+	margin: auto;
 	width: 50%;
 	border: 1px solid black;
 }
@@ -48,4 +50,14 @@ table {
 th, td {
 	text-align: center;
     padding: 15px;
+}
+img {
+	display: block;
+	height: auto;
+	width: 50%;
+	max-width: 600px;
+	margin: auto;
+}
+figcaption { font-size: 75%;
+  text-align: center;
 }
