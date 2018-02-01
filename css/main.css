@@ -13,6 +13,14 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
     display:block;
 }
 
+main {
+	width: 80%;
+	margin: auto;
+	background-color: #FFFFFF;
+	max-width: 960px;
+	padding-top: 1%;
+}
+
 h1 {
 	text-align: center;
 	font-family: 'Dancing Script', cursive;
@@ -30,4 +38,14 @@ p {
 p::first-letter {
     color: #f83377;
     font-size: xx-large;
+}
+
+table {
+	width: 50%;
+	border: 1px solid black;
+}
+
+th, td {
+	text-align: center;
+    padding: 15px;
 }
